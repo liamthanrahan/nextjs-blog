@@ -9,11 +9,10 @@ export default function FirstPost() {
         <title>First Post</title>
       </Head>
       <h1>First Post</h1>
-      <h2>
-        <Link href="/">
-          <a>Back to home</a>
-        </Link>
-      </h2>
+      <p>
+        This page has a static route that is loaded manually. All other pages
+        are loaded dynamically on build.
+      </p>
     </Layout>
   );
 }
